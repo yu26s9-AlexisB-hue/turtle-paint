@@ -11,7 +11,7 @@ public class MainApp
 
         // The world is your canvas
         World world = new World(200, 200);
-        Turtle turtle = new Turtle(world,50, -50);
+        Turtle turtle = new Turtle(world,0, -100);
         
         int width = 200;
         int height = 200;
@@ -26,13 +26,40 @@ public class MainApp
         turtle.setPenWidth(10);
         turtle.setColor(Color.BLUE);
 
-        //Draws a square
-        int i = 0;
-        do{
-            turtle.turnRight(90);
-            turtle.forward(70);
-            i++;
-        }while (i < 4);
+//        //Draws a square
+//        int s = 0;
+//        do{
+//            turtle.turnRight(90);
+//            turtle.forward(70);
+//            s++;
+//        }while (s < 4);
+
+
+        //Draws a circle
+//        int c = 0;
+//        do{
+//            turtle.turnRight(5);
+//            turtle.forward(5);
+//            c++;
+//        }while(c < 71);
+
+
+
+        //makes the 't' shape
+        turtle.turnRight(90);
+        turtle.forward(100);
+        turtle.turnRight(90);
+        turtle.backward(-100);
+        turtle.forward(-200);
+        turtle.backward(-100);
+        turtle.turnLeft(90);
+        turtle.forward(100);
+
+
+
+
+
+
 
 //
 //        turtle.penUp();
