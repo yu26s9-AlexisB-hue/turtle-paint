@@ -1,3 +1,5 @@
+package com.pluralsight.forms;
+
 import java.awt.*;
 
 public class MainApp
@@ -22,7 +24,7 @@ public class MainApp
 
 
         turtle.setPenWidth(3);
-        turtle.setColor(Color.GREEN);
+        turtle.setColor(Color.BLUE);
 
         turtle.turnRight(45);
         turtle.forward(hypotenuse);
