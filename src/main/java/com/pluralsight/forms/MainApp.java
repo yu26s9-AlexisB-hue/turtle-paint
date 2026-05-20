@@ -11,7 +11,7 @@ public class MainApp
 
         // The world is your canvas
         World world = new World(200, 200);
-        Turtle turtle = new Turtle(world,-100, -100);
+        Turtle turtle = new Turtle(world,50, -50);
         
         int width = 200;
         int height = 200;
@@ -23,17 +23,26 @@ public class MainApp
         double hypotenuse = Math.sqrt(widthSquared + heightSquared);
 
 
-        turtle.setPenWidth(3);
+        turtle.setPenWidth(10);
         turtle.setColor(Color.BLUE);
 
-        turtle.turnRight(45);
-        turtle.forward(hypotenuse);
+        //Draws a square
+        int i = 0;
+        do{
+            turtle.turnRight(90);
+            turtle.forward(70);
+            i++;
+        }while (i < 4);
 
-        turtle.penUp();
-        turtle.goTo(100, 100);
-        turtle.turnRight(90);
+//
+//        turtle.penUp();
+//        turtle.goTo(50, 50);
+//        turtle.turnRight(90);
+//
+//        turtle.penDown();
+//        turtle.forward(hypotenuse);
 
-        turtle.penDown();
-        turtle.forward(hypotenuse);
+
+
     }
 }
