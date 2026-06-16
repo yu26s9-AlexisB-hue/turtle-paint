@@ -10,7 +10,7 @@ public class MainApp
         // the TurtleLogo application works
 
         // The world is your canvas
-        World world = new World(200, 200);
+        World world = new World(400, 400);
         Turtle turtle = new Turtle(world,0, -100);
         
         int width = 200;
@@ -46,16 +46,40 @@ public class MainApp
 
 
         //makes the 't' shape
-        turtle.turnRight(90);
-        turtle.forward(100);
-        turtle.turnRight(90);
-        turtle.backward(-100);
-        turtle.forward(-200);
-        turtle.backward(-100);
-        turtle.turnLeft(90);
-        turtle.forward(100);
+//        turtle.turnRight(90);
+//        turtle.forward(100);
+//        turtle.turnRight(90);
+//        turtle.backward(-100);
+//        turtle.forward(-200);
+//        turtle.backward(-100);
+//        turtle.turnLeft(90);
+//        turtle.forward(100);
 
-
+//        int hc = 0;
+//        do{
+//            turtle.turnRight(5);
+//            turtle.forward(5);
+//            hc++;
+//        }while(hc < 52);
+//        turtle.turnRight(100);
+//        turtle.forward(50);
+//        turtle.turnLeft(90);
+//        turtle.forward(60);
+//
+//        turtle.penUp();
+//        turtle.goTo(-25,50);
+//        turtle.setColor(Color.RED);
+//        turtle.penDown();
+//        turtle.forward(45);
+//
+//        int j = 0;
+//        do{
+//            turtle.turnLeft(15);
+//            turtle.forward(5);
+//            j++;
+//        }while(j < 10);
+//
+//
 
 
 
